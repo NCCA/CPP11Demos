@@ -2,7 +2,7 @@
 
 static const std::string shader =
 
-R"DELIM(
+R"(
 #version 400 core
 
 // first attribute the vertex values from our VAO
@@ -18,7 +18,7 @@ void main()
 	// pass the UV values to the frag shader
 	vertUV=inUV.st;
 }
-)DELIM";
+)";
 int main()
 {
 

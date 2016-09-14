@@ -1,5 +1,8 @@
 #include <iostream>
 #include <cstdlib>
+#include <iostream>
+#include <iterator>
+
 #include "PointArray.h"
 int main()
 {
@@ -10,5 +13,7 @@ int main()
   {
     std::cout<<d.x <<" "<<d.y<<" "<<d.z<<"\n";
   }
+
+
   return EXIT_SUCCESS;
 }

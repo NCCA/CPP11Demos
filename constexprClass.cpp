@@ -1,19 +1,22 @@
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
+
+
+
 class Circle
 {
     public:
     	constexpr Circle (float _x, float _y, float _radius) : 
-    m_x( _x ), m_y( _y ), m_radius( _radius ) {}
-    constexpr double getArea () 
+    m_x( _x ), m_y( _y ), m_radius( _radius ) {  }
+    constexpr double getArea () const
     {
         return m_radius * m_radius * M_PI;
     }
     private:
-        float m_x;
-        float m_y;
-        float m_radius;
+        float m_x=0.0f;
+        float m_y=0.f;
+        float m_radius=1.0f;
 };
 
 int main()

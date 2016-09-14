@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 
-constexpr unsigned long int factorial (int n)
+constexpr unsigned long int factorial (unsigned long int n)
 {
     return n > 0 ? n * factorial( n - 1 ) : 1;
 }
@@ -9,7 +9,7 @@ constexpr unsigned long int factorial (int n)
 
 int main()
 {
-	const unsigned long int big=factorial(25);
+	const unsigned long int big=factorial(2223432234233433405);
 	int a;
 	std::cout<<"enter a value>";
 	std::cin >>a;
